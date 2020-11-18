@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body background */
+body{
+    background-size: cover;
+}
+/* signup form */
+.upform-decor{
+    border: 5px solid darkgreen;
+    background-color: palegreen;
+    border-radius: 1em;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 16%;
+}
+.upnav-decor{
+    /* border: 1px solid red; */
+    padding: 8px;
+}
+.uphead-decor{
+    /* border: 1px solid red; */
+    background-color: mediumseagreen;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+}
+.reg-btn{
+    margin-left: 45%;
+}
+/* Login form */
+.inform-decor{
+    border: 5px solid darkgreen;
+    background-color: palegreen;
+    border-radius: 1em;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 63%;
+}
+/* description */
+.desc-decor{
+    /* border: 1px solid red; */
+    color: white;
+    text-align: justify;
+    margin-top: 5%;
+    margin-left: 55%;
+}
+#kerala-head{
+    text-align: center;
+    font-weight: bold;
+}
+.viewall-decor{
+    /* border: 1px solid red; */
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 24%;
+    color: black;
+}
+#dir-decor{
+    margin-top: 5%;
+}
+#map-decor{
+    color: white;
+    text-decoration: underline;
+}
+/* district page */
+.dist-decor{
+    background-color: cornsilk;
+}
+.crsl-decor{
+    padding: 3px;
+    margin-top: 5%;
+    margin-left: 6%;
+    background-color: goldenrod;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+}
+#dist-head{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+#dist-subhead{
+    margin-top: 4%;
+    margin-left: 10%;
+    font-weight: bold;
+}
+#dist-desc{
+    /* border: 1px solid red; */
+    margin-top: 1em;
+    margin-left: 10%;
+    text-align: justify;
+    line-height: 190%;
+}
+#dist-map{
+    color: black;
+    text-decoration: underline;
+}
+.place-decor{
+    margin-top: 5%;
+    margin-left: 11%;
+    padding: 15px;
+    background-color: rgb(248, 213, 123);
+    border-radius: 10px;
+}
+.btn-decor{
+    background-color: goldenrod;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 35%;
+    color: white;
+}
+#km-decor{
+    color: rgb(126, 123, 123);
+}
+#place-head{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+/* districts page */
+#alldist-head{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-left: 33%;
+    text-decoration: underline;
+}
+.dist-card{
+    padding: 8px;
+    text-align: center;
+}
+.card-decor{
+    margin-top: 5%;
+    margin-left: 9%;
+}
+#card-decor{
+    margin-top: 5%;
+    margin-left: 19%;
+    margin-bottom: 4%;
+}
+#dist-link{
+    color: black;
+}
+.page-decor{
+    margin-left: 43%;
+}
+.place-desc{
+    text-align: justify;
+}
+/* contact page */
+#cont-head{
+    font-weight: bold;
+}
+.cont-decor{
+    /* border: 1px solid red; */
+    color: white;
+    text-align: justify;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.table-decor{
+    /* border: 1px solid red; */
+    color: white;
+    text-align: justify;
+    margin-top: 5%;
+    margin-left: 18%;
+}
