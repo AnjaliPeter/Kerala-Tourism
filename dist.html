@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Districts</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body class="dist-decor">
+    <!-- navbar start -->
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="#">
+        <img src="./pictures/bglogo/logo.png" width="250" height="45" alt="logo" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">SignUp</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">LogIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">ContactUs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Districts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">All Districts</a>
+                <a class="dropdown-item" href="tvm.html">Thiruvananthapuram</a>
+                <a class="dropdown-item" href="kllm.html">Kollam</a>
+                <a class="dropdown-item" href="alpzha.html">Alapppuzha</a>
+                <a class="dropdown-item" href="pthnm.html">Pathanamthitta</a>
+                <a class="dropdown-item" href="kttym.html">Kottayam</a>
+                <a class="dropdown-item" href="idkki.html">Idukki</a>
+                <a class="dropdown-item" href="erklm.html">Ernakulam</a>
+                <a class="dropdown-item" href="thssr.html">Thrissur</a>
+                <a class="dropdown-item" href="plkkd.html">Palakkad</a>
+                <a class="dropdown-item" href="mlpprm.html">Malappuram</a>
+                <a class="dropdown-item" href="kzhkd.html">Kozhikode</a>
+                <a class="dropdown-item" href="wynd.html">Wayanad</a>
+                <a class="dropdown-item" href="knnr.html">Kannur</a>
+                <a class="dropdown-item" href="ksrgd.html">Kasargode</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search for Places" aria-label="Search">
+          <button class="btn bg-success my-2 my-sm-0" type="submit">Go</button>
+        </form>
+    </nav>
+    </div>
+    <!-- navbar end -->
+    <!-- districts list start-->
+    <h6 id="alldist-head">All Places to Visit in Kerala</h6>
+    <div class="row">
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/tvm/npmesm.jpg" class="card-img-top" alt="District 1">
+        <div class="dist-card">
+          <a target="_blank" href="tvm.html" class="card-link" id="dist-link">1. Thiruvananthapuram</a>
+        </div>
+      </div>
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/kllm/ashtmd.jpg" class="card-img-top" alt="District 2">
+        <div class="dist-card">
+          <a target="_blank" href="kllm.html" class="card-link" id="dist-link">2. Kollam</a>
+        </div>
+      </div>
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/alpzha/ktnd.jpg" class="card-img-top" alt="District 3">
+        <div class="dist-card">
+          <a target="_blank" href="alpzha.html" class="card-link" id="dist-link">3. Alapppuzha</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/pthnm/arnmla.jpg" class="card-img-top" alt="District 4">
+        <div class="dist-card">
+          <a target="_blank" href="pthnm.html" class="card-link" id="dist-link">4. Pathanamthitta</a>
+        </div>
+      </div>
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/kttym/kmrkm.jpg" class="card-img-top" alt="District 5">
+        <div class="dist-card">
+          <a target="_blank" href="kttym.html" class="card-link" id="dist-link">5. Kottayam</a>
+        </div>
+      </div>
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/idkki/arch.jpg" class="card-img-top" alt="District 6">
+        <div class="dist-card">
+          <a target="_blank" href="idkki.html" class="card-link" id="dist-link">6. Idukki</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/enklm/brdsntry.jpg" class="card-img-top" alt="District 7">
+        <div class="dist-card">
+          <a target="_blank" href="erklm.html" class="card-link" id="dist-link">7. Ernakulam</a>
+        </div>
+      </div>
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/thssr/athply.jpg" class="card-img-top" alt="District 8">
+        <div class="dist-card">
+          <a target="_blank" href="thssr.html" class="card-link" id="dist-link">8. Thrissur</a>
+        </div>
+      </div>
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/plkd/fort.jpeg" class="card-img-top" alt="District 9">
+        <div class="dist-card">
+          <a target="_blank" href="plkkd.html" class="card-link" id="dist-link">9. Palakkad</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/mlprm/kdlndi.jpg" class="card-img-top" alt="District 10">
+        <div class="dist-card">
+          <a target="_blank" href="mlpprm.html" class="card-link" id="dist-link">10. Malappuram</a>
+        </div>
+      </div>
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/kzhkd/beach.jpg" class="card-img-top" alt="District 11">
+        <div class="dist-card">
+          <a target="_blank" href="kzhkd.html" class="card-link" id="dist-link">11. Kozhikode</a>
+        </div>
+      </div>
+      <div class="card card-decor" style="width: 18rem;">
+        <img src="./pictures/wynd/knthn.jpeg" class="card-img-top" alt="District 12">
+        <div class="dist-card">
+          <a target="_blank" href="wynd.html" class="card-link" id="dist-link">12. Wayanad</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card" id="card-decor" style="width: 18rem;">
+        <img src="./pictures/knnr/lthse.jpg" class="card-img-top" alt="District 13">
+        <div class="dist-card">
+          <a target="_blank" href="knnr.html" class="card-link" id="dist-link">13. Kannur</a>
+        </div>
+      </div>
+      <div class="card" id="card-decor" style="width: 18rem;">
+        <img src="./pictures/ksrgd/kmbl.jpg" class="card-img-top" alt="District 14">
+        <div class="dist-card">
+          <a target="_blank" href="ksrgd.html" class="card-link" id="dist-link">14. Kasargode</a>
+        </div>
+      </div>
+    </div>
+    <!-- district list end -->
+</body>
+</html>
