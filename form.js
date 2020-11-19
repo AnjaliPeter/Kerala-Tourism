@@ -45,7 +45,7 @@ function validate(){
     var num = document.getElementById("num").value;
     var phoneno = /^\d{10}$/
     var phone = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/
-    var regexp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@([a-zA-Z0-9]){3,6}+.([a-zA-Z0-9])$/
+    var regexp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]@([a-zA-Z0-9]+).([a-zA-Z0-9]{2,4})$/
     
     // email format validation
     if (regexp.test(mail)){
